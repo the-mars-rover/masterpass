@@ -4,12 +4,11 @@ A Flutter plugin for working with the masterpass in-app API.
 
 ## Installation
 
-First add ```masterpass``` to as a [dependency in your pubspec.yaml file](https://flutter.io/platform-plugins/).
+First add `masterpass` to as a [dependency in your pubspec.yaml file](https://flutter.io/platform-plugins/).
 
 ### iOS
 
-Add the following keys to your Info.plist file, located in 
-```<project root>/ios/Runner/Info.plist```:
+Add the following keys to your Info.plist file, located in `<project root>/ios/Runner/Info.plist`:
 ```
 <key>NSLocationWhenInUseUsageDescription</key>
 <string>Your location will be used to prevent fraud.</string>
@@ -25,7 +24,7 @@ In order to use this plugin, a masterpass merchant account has to be
 setup on the Masterpass system - see https://developer.mastercard.com/product/masterpass#accept-payments
 to create a merchant account.
 
-```
+```dart
 import 'package:flutter/material.dart';
 import 'dart:async';
 
@@ -158,18 +157,18 @@ class HomePage extends StatelessWidget {
 
 ## Response classes
 
-The ```checkout``` method will return an instance of one of the following
+The `checkout` method will return an instance of one of the following
 classes which will describe the result:
 
-```InvalidTxnCode``` - the transaction code used was invalid.
+`InvalidTxnCode` - the transaction code used was invalid.
 
-```MasterpassError``` - an error occurred with asterpass before the payment was initiated.
+`MasterpassError` - an error occurred with asterpass before the payment was initiated.
 
-```UserCancelled``` - the user cancelled the transaction.
+`UserCancelled` - the user cancelled the transaction.
 
-```PaymentFailed``` - the payment failed (the ```reference``` field contains the payment reference)
+`PaymentFailed` - the payment failed (the `reference` field contains the payment reference)
 
-```PaymentSucceeded``` - the payment was successful (the ```reference``` field contains the payment reference)
+`PaymentSucceeded` - the payment was successful (the `reference` field contains the payment reference)
 
 ## Additional information:
 
