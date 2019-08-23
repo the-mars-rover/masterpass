@@ -1,0 +1,22 @@
+PODS:
+  - Flutter (1.0.0)
+  - masterpass (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `.symlinks/flutter/ios`)
+  - masterpass (from `.symlinks/plugins/masterpass/ios`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: ".symlinks/flutter/ios"
+  masterpass:
+    :path: ".symlinks/plugins/masterpass/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 58dd7d1b27887414a370fcccb9e645c08ffd7a6a
+  masterpass: 70c2430590b75dbbd67ae64d532be6e27aac3a3b
+
+PODFILE CHECKSUM: b6a0a141693093b304368d08511b46cf3d1d0ac5
+
+COCOAPODS: 1.7.5
