@@ -52,7 +52,6 @@ typedef NS_ENUM(NSInteger, MPError) {
 -(NSString *)getLibNixApiVersion;
 -(void)preRegister:(NSString *)apiKey system:(MPSystem)system controller:(UIViewController *)presentingController delegate:(id<MPMasterPassDelegate>)delegate ;
 
-//TODO remove, for dubugging only
 -(void)showScreen:(NSString *)storybaordId fromController:(UIViewController *)presentingController;
 
 -(void)reset;
