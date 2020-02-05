@@ -1,12 +1,16 @@
-## 0.0.1
+## 1.0.0
 
-* Initial Release.
-* Provide ```checkout``` method to perform masterpass checkout.
+* Production Ready Release
+
+## 0.0.3
+
+* Accommodate for Live environment on iOS
 
 ## 0.0.2
 
 * Improved semantics in `README.md`
 
-## 0.0.3
+## 0.0.1
 
-* Accommodate for Live environment on iOS
+* Initial Release.
+* Provide ```checkout``` method to perform masterpass checkout.

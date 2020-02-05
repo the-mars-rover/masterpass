@@ -151,10 +151,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="415" y="190" key="#masterpass_test.dart/0.0.1440.900@0.0.1440.900" timestamp="1580882477367" />
-    <state x="303" y="52" key="CommitChangelistDialog2" timestamp="1580882705568">
+    <state x="303" y="52" key="CommitChangelistDialog2" timestamp="1580882760371">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="303" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1580882705568" />
+    <state x="303" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1580882760371" />
     <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1580882497900">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -171,6 +171,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1580882497899" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1580882764992">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1580882764992" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/masterpass_flutter_plugin$masterpass_test_dart.json" NAME="masterpass_test.dart Coverage Results" MODIFIED="1580882444689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="DartCoverageRunner" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" CONTEXT_FILE_PATH="$PROJECT_DIR$/test/masterpass_test.dart" />
