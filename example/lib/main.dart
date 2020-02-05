@@ -64,10 +64,10 @@ class HomePage extends StatelessWidget {
           String txnCode =
               await _getTransactionId(double.parse(_amountController.text));
 
-          String apiKey =
-              "enter-your-api-key-here"; // Your masterpass API key.
-          String system = MasterpassSystem
-              .TEST; // The masterpass system you want to use (TEST or LIVE)
+          // Your masterpass API key.
+          String apiKey = "enter-your-api-key-here";
+          // The masterpass system you want to use (TEST or LIVE)
+          String system = MasterpassSystem.TEST;
           Masterpass masterpass = Masterpass(apiKey, system);
           CheckoutResult paymentResult = await masterpass.checkout(txnCode);
 
