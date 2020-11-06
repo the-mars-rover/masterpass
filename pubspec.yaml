@@ -1,6 +1,6 @@
 name: masterpass
 description: A Flutter plugin for working with the masterpass in-app API.
-version: 1.0.0
+version: 1.0.1
 homepage: https://github.com/born-ideas/masterpass
 
 environment:
