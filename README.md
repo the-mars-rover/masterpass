@@ -14,7 +14,8 @@
 <a href="https://github.com/Born-Pty-Ltd/masterpass-flutter-plugin/issues"><img src="https://img.shields.io/github/issues/Born-Pty-Ltd/masterpass-flutter-plugin" alt="issues"></a>
 <a href="https://github.com/Born-Pty-Ltd/masterpass-flutter-plugin/network"><img src="https://img.shields.io/github/forks/Born-Pty-Ltd/masterpass-flutter-plugin" alt="forks"></a>
 <a href="https://github.com/Born-Pty-Ltd/masterpass-flutter-plugin/stargazers"><img src="https://img.shields.io/github/stars/Born-Pty-Ltd/masterpass-flutter-plugin" alt="stars"></a>
-<a href="https://github.com/Born-Pty-Ltd/masterpass-flutter-plugin/blob/master/LICENSE"><img src="https://img.shields.io/badge/style-effective_dart-40c4ff.svg" alt="style: effective dart"></a>
+<a href="https://dart.dev/guides/language/effective-dart/style"><img src="https://img.shields.io/badge/style-effective_dart-40c4ff.svg" alt="style"></a>
+<a href="https://github.com/Born-Pty-Ltd/masterpass-flutter-plugin/blob/master/LICENSE"><img src="https://img.shields.io/github/license/Born-Pty-Ltd/masterpass-flutter-plugin" alt="license"></a>
 </p>
 
 ---
@@ -35,7 +36,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-<p style="text-align:center;">
+<p align="center">
 <img src="https://raw.githubusercontent.com/Born-Pty-Ltd/masterpass-flutter-plugin/master/docs/assets/masterpass_screenshot_1.jpeg" width="200" alt="Masterpass Screenshot 1" />
 <img src="https://raw.githubusercontent.com/Born-Pty-Ltd/masterpass-flutter-plugin/master/docs/assets/masterpass_screenshot_2.jpeg" width="200" alt="Masterpass Screenshot 2" />
 <img src="https://raw.githubusercontent.com/Born-Pty-Ltd/masterpass-flutter-plugin/master/docs/assets/masterpass_screenshot_3.jpeg" width="200" alt="Masterpass Screenshot 3" />
