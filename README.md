@@ -1,7 +1,7 @@
 <!-- PROJECT LOGO -->
 <p align="right">
 <a href="https://flutter.dev">
-<img src="https://drive.google.com/uc?export=view&id=1qrY5NK7T-irnN1ZeiIANk9U58gvNZyzY" width="100" alt="Flutter">
+<img src="https://drive.google.com/uc?export=view&id=1qrY5NK7T-irnN1ZeiIANk9U58gvNZyzY" height="100" alt="Flutter">
 </a>
 </p>
 <p align="center">
