@@ -1,10 +1,10 @@
 <!-- PROJECT LOGO -->
-<p style="text-align:center;">
+<p align="center">
 <img src="https://raw.githubusercontent.com/Born-Pty-Ltd/masterpass-flutter-plugin/master/docs/assets/masterpass_logo.png" height="100" alt="Masterpass" />
 </p>
 
 <!-- PROJECT SHIELDS -->
-<p style="text-align:center;">
+<p align="center">
 <a href="https://pub.dev/packages/masterpass"><img src="https://img.shields.io/pub/v/masterpass" alt="pub"></a>
 <a href="https://github.com/Born-Pty-Ltd/masterpass-flutter-plugin/issues"><img src="https://img.shields.io/github/issues/Born-Pty-Ltd/masterpass-flutter-plugin" alt="issues"></a>
 <a href="https://github.com/Born-Pty-Ltd/masterpass-flutter-plugin/network"><img src="https://img.shields.io/github/forks/Born-Pty-Ltd/masterpass-flutter-plugin" alt="forks"></a>
@@ -12,7 +12,7 @@
 <a href="https://github.com/Born-Pty-Ltd/masterpass-flutter-plugin/blob/master/LICENSE"><img src="https://img.shields.io/badge/style-effective_dart-40c4ff.svg" alt="style: effective dart"></a>
 </p>
 
-
+---
 
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
