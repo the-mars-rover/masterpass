@@ -1,11 +1,11 @@
 <!-- PROJECT LOGO -->
 <p align="right">
 <a href="https://flutter.dev">
-<img src="https://raw.githubusercontent.com/born-ideas/masterpass/master/example/docs/assets/project_badge.png" height="100" alt="Project Badge">
+<img src="https://raw.githubusercontent.com/born-ideas/masterpass/master/example/assets/project_badge.png" height="100" alt="Project Badge">
 </a>
 </p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/born-ideas/masterpass/master/example/docs/assets/project_logo.png" height="100" alt="Project Logo" />
+<img src="https://raw.githubusercontent.com/born-ideas/masterpass/master/example/assets/project_logo.png" height="100" alt="Project Logo" />
 </p>
 
 <!-- PROJECT SHIELDS -->
@@ -37,9 +37,9 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 <p align="center">
-<img src="https://raw.githubusercontent.com/born-ideas/masterpass/master/example/docs/assets/screenshot_1.jpeg" width="200" alt="Screenshot 1" />
-<img src="https://raw.githubusercontent.com/born-ideas/masterpass/master/example/docs/assets/screenshot_2.jpeg" width="200" alt="Screenshot 2" />
-<img src="https://raw.githubusercontent.com/born-ideas/masterpass/master/example/docs/assets/screenshot_3.jpeg" width="200" alt="Screenshot 3" />
+<img src="https://raw.githubusercontent.com/born-ideas/masterpass/master/example/assets/screenshot_1.jpeg" width="200" alt="Screenshot 1" />
+<img src="https://raw.githubusercontent.com/born-ideas/masterpass/master/example/assets/screenshot_2.jpeg" width="200" alt="Screenshot 2" />
+<img src="https://raw.githubusercontent.com/born-ideas/masterpass/master/example/assets/screenshot_3.jpeg" width="200" alt="Screenshot 3" />
 </p>
 
 This is an example project which demonstrates how to use the [masterpass](https://pub.dev/packages/masterpass) Flutter plugin.

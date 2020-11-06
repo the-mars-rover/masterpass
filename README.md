@@ -1,11 +1,11 @@
 <!-- PROJECT LOGO -->
 <p align="right">
 <a href="https://pub.dev">
-<img src="https://raw.githubusercontent.com/born-ideas/masterpass/master/docs/assets/project_badge.png" height="100" alt="Flutter">
+<img src="https://raw.githubusercontent.com/born-ideas/masterpass/master/assets/project_badge.png" height="100" alt="Flutter">
 </a>
 </p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/born-ideas/masterpass/master/docs/assets/project_logo.png" height="100" alt="Masterpass Example" />
+<img src="https://raw.githubusercontent.com/born-ideas/masterpass/master/assets/project_logo.png" height="100" alt="Masterpass Example" />
 </p>
 
 <!-- PROJECT SHIELDS -->
@@ -37,9 +37,9 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 <p align="center">
-<img src="https://raw.githubusercontent.com/born-ideas/masterpass/master/docs/assets/screenshot_1.jpeg" width="200" alt="Screenshot 1" />
-<img src="https://raw.githubusercontent.com/born-ideas/masterpass/master/docs/assets/screenshot_2.jpeg" width="200" alt="Screenshot 2" />
-<img src="https://raw.githubusercontent.com/born-ideas/masterpass/master/docs/assets/screenshot_3.jpeg" width="200" alt="Screenshot 3" />
+<img src="https://raw.githubusercontent.com/born-ideas/masterpass/master/assets/screenshot_1.jpeg" width="200" alt="Screenshot 1" />
+<img src="https://raw.githubusercontent.com/born-ideas/masterpass/master/assets/screenshot_2.jpeg" width="200" alt="Screenshot 2" />
+<img src="https://raw.githubusercontent.com/born-ideas/masterpass/master/assets/screenshot_3.jpeg" width="200" alt="Screenshot 3" />
 </p>
 
 [Masterpass](https://masterpass.com/en-za.html) provides a great way to handle in-app card payments on Android and iOS devices.
