@@ -1,6 +1,6 @@
 <!-- PROJECT LOGO -->
 <p align="right">
-<a href="https://flutter.dev">
+<a href="https://pub.dev">
 <img src="https://raw.githubusercontent.com/born-ideas/masterpass-flutter-plugin/master/docs/assets/project_badge.png" height="100" alt="Flutter">
 </a>
 </p>
