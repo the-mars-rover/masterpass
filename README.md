@@ -1,12 +1,72 @@
-# masterpass
+<!-- PROJECT LOGO -->
+<p style="text-align:center;">
+<img src="https://raw.githubusercontent.com/Born-Pty-Ltd/masterpass-flutter-plugin/master/docs/assets/masterpass_logo.png" height="100" alt="Masterpass" />
+</p>
 
-A Flutter plugin for working with the masterpass in-app API.
+<!-- PROJECT SHIELDS -->
+<p style="text-align:center;">
+<a href="https://pub.dev/packages/masterpass"><img src="https://img.shields.io/pub/v/masterpass" alt="pub"></a>
+<a href="https://github.com/Born-Pty-Ltd/masterpass-flutter-plugin/issues"><img src="https://img.shields.io/github/issues/Born-Pty-Ltd/masterpass-flutter-plugin" alt="issues"></a>
+<a href="https://github.com/Born-Pty-Ltd/masterpass-flutter-plugin/network"><img src="https://img.shields.io/github/forks/Born-Pty-Ltd/masterpass-flutter-plugin" alt="forks"></a>
+<a href="https://github.com/Born-Pty-Ltd/masterpass-flutter-plugin/stargazers"><img src="https://img.shields.io/github/stars/Born-Pty-Ltd/masterpass-flutter-plugin" alt="stars"></a>
+<a href="https://github.com/Born-Pty-Ltd/masterpass-flutter-plugin/blob/master/LICENSE"><img src="https://img.shields.io/badge/style-effective_dart-40c4ff.svg" alt="style: effective dart"></a>
+</p>
 
-## Installation
 
-First add `masterpass` to as a [dependency in your pubspec.yaml file](https://flutter.io/platform-plugins/).
 
-### iOS
+<!-- TABLE OF CONTENTS -->
+## Table of Contents
+
+* [About the Project](#about-the-project)
+* [Getting Started](#getting-started)
+* [Usage](#usage)
+* [Roadmap](#roadmap)
+* [Contributing](#contributing)
+* [License](#license)
+* [Contact](#contact)
+* [Acknowledgements](#acknowledgements)
+
+
+
+<!-- ABOUT THE PROJECT -->
+## About The Project
+<p style="text-align:center;">
+<img src="https://raw.githubusercontent.com/Born-Pty-Ltd/masterpass-flutter-plugin/master/docs/assets/masterpass_screenshot_1.jpeg" width="200" alt="Masterpass Screenshot 1" />
+<img src="https://raw.githubusercontent.com/Born-Pty-Ltd/masterpass-flutter-plugin/master/docs/assets/masterpass_screenshot_2.jpeg" width="200" alt="Masterpass Screenshot 2" />
+<img src="https://raw.githubusercontent.com/Born-Pty-Ltd/masterpass-flutter-plugin/master/docs/assets/masterpass_screenshot_3.jpeg" width="200" alt="Masterpass Screenshot 3" />
+</p>
+
+[Masterpass](https://masterpass.com/en-za.html) provides a great way to handle in-app card payments on Android and iOS devices.
+However, they only provide native iOS and Android libraries to work with their API. This project provides a [Flutter plugin](https://flutter.dev/docs/development/packages-and-plugins)
+for working with the masterpass in-app API on both iOS and Android devices.
+* The spec for the native android masterpass API can be found [here](https://urldefense.proofpoint.com/v2/url?u=https-3A__oltio.us12.list-2Dmanage.com_track_click-3Fu-3De5edaa7b3cd76ba301db441c6-26id-3Deba8d84ff6-26e-3Db9f08fe4d0&d=DwMFaQ&c=uc5ZRXl8dGLM1RMQwf7xTCjRqXF0jmCF6SP0bDlmMmY&r=ze8BuKzlZostw6sA6oagyZcweugPqDUBG6ZV6PNjUik&m=z7tZfmsqH9tfnlp5O4gl8BMydcup8FyqWTa07nSz6hM&s=G4Lfp2u5PM6Q8ewgfsPqHGctk_4iIYxAPLYZlkYINT8&e=).
+* The spec for the native iOS masterpass API can be found [here](https://urldefense.proofpoint.com/v2/url?u=https-3A__oltio.us12.list-2Dmanage.com_track_click-3Fu-3De5edaa7b3cd76ba301db441c6-26id-3D23202bc7dd-26e-3Db9f08fe4d0&d=DwMFaQ&c=uc5ZRXl8dGLM1RMQwf7xTCjRqXF0jmCF6SP0bDlmMmY&r=ze8BuKzlZostw6sA6oagyZcweugPqDUBG6ZV6PNjUik&m=z7tZfmsqH9tfnlp5O4gl8BMydcup8FyqWTa07nSz6hM&s=YcLYcHVcMmpYwY71KRRub2e-a7fcQoBV_klhVkRlCGU&e=).
+
+### Built With
+* [Flutter](https://flutter.dev/)
+* [Android Jetpack](https://developer.android.com/jetpack/)
+* [Swift](https://developer.apple.com/swift/)
+
+
+
+<!-- GETTING STARTED -->
+## Getting Started
+
+### Prerequisites
+
+Since this is a [Flutter plugin](https://flutter.dev/docs/development/packages-and-plugins), you will need to use it from
+within a Flutter App. A few resources to get you started with your first Flutter project:                   
+- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+
+Also, in order to use this plugin, a masterpass merchant account has to be setup on the [Masterpass System](https://developer.mastercard.com/product/masterpass#accept-payments)
+After setting up your merchant account, you will receive an API key that you can use for this plugin.
+
+### Installation
+
+Add `masterpass` as a [dependency in your pubspec.yaml file](https://flutter.io/platform-plugins/).
+
+#### iOS
 
 Add the following keys to your Info.plist file, located in `<project root>/ios/Runner/Info.plist`:
 ```
@@ -14,15 +74,15 @@ Add the following keys to your Info.plist file, located in `<project root>/ios/R
 <string>Your location will be used to prevent fraud.</string>
 ```
 
-### Android
+#### Android
 
 No configuration required - the plugin should work out of the box.
 
-## Example
 
-In order to use this plugin, a masterpass merchant account has to be 
-setup on the Masterpass system - see https://developer.mastercard.com/product/masterpass#accept-payments
-to create a merchant account.
+
+<!-- USAGE EXAMPLES -->
+## Usage
+The example below shows how the plugin can be used. You can test this yourself by using the example app in the [example folder](example).
 
 ```dart
 import 'package:flutter/material.dart';
@@ -155,7 +215,7 @@ class HomePage extends StatelessWidget {
 }
 ```
 
-## Response classes
+### Response classes
 
 The `checkout` method will return an instance of one of the following
 classes which will describe the result:
@@ -170,8 +230,46 @@ classes which will describe the result:
 
 `PaymentSucceeded` - the payment was successful (the `reference` field contains the payment reference)
 
-## Additional information:
 
-The spec for the native android masterpass API can be found [here](https://urldefense.proofpoint.com/v2/url?u=https-3A__oltio.us12.list-2Dmanage.com_track_click-3Fu-3De5edaa7b3cd76ba301db441c6-26id-3Deba8d84ff6-26e-3Db9f08fe4d0&d=DwMFaQ&c=uc5ZRXl8dGLM1RMQwf7xTCjRqXF0jmCF6SP0bDlmMmY&r=ze8BuKzlZostw6sA6oagyZcweugPqDUBG6ZV6PNjUik&m=z7tZfmsqH9tfnlp5O4gl8BMydcup8FyqWTa07nSz6hM&s=G4Lfp2u5PM6Q8ewgfsPqHGctk_4iIYxAPLYZlkYINT8&e=)
 
-The spec for the native iOS masterpass API can be found [here](https://urldefense.proofpoint.com/v2/url?u=https-3A__oltio.us12.list-2Dmanage.com_track_click-3Fu-3De5edaa7b3cd76ba301db441c6-26id-3D23202bc7dd-26e-3Db9f08fe4d0&d=DwMFaQ&c=uc5ZRXl8dGLM1RMQwf7xTCjRqXF0jmCF6SP0bDlmMmY&r=ze8BuKzlZostw6sA6oagyZcweugPqDUBG6ZV6PNjUik&m=z7tZfmsqH9tfnlp5O4gl8BMydcup8FyqWTa07nSz6hM&s=YcLYcHVcMmpYwY71KRRub2e-a7fcQoBV_klhVkRlCGU&e=)
+<!-- ROADMAP -->
+## Roadmap
+
+See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a list of proposed features (and known issues).
+
+
+
+<!-- CONTRIBUTING -->
+## Contributing
+
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+
+
+<!-- LICENSE -->
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+
+
+<!-- CONTACT -->
+## Contact
+
+Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+
+Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+
+
+
+<!-- ACKNOWLEDGEMENTS -->
+## Acknowledgements
+* [Masterpass by Mastercard](https://masterpass.com/en-za.html)
+* [Shields IO](https://shields.io)
+* [Open Source Licenses](https://choosealicense.com)
