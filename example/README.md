@@ -70,21 +70,6 @@ First, replace `apiKey` in the example App with your masterpass API Key.
 Then, run the app [in the way your IDE describes](https://flutter.dev/docs/get-started/test-drive).
 You should see either Android, iOS, or web output, depending on your device.
 
-### Response classes
-
-The `checkout` method will return an instance of one of the following
-classes which will describe the result:
-
-`InvalidTxnCode` - the transaction code used was invalid.
-
-`MasterpassError` - an error occurred with asterpass before the payment was initiated.
-
-`UserCancelled` - the user cancelled the transaction.
-
-`PaymentFailed` - the payment failed (the `reference` field contains the payment reference)
-
-`PaymentSucceeded` - the payment was successful (the `reference` field contains the payment reference)
-
 
 
 <!-- ROADMAP -->
