@@ -19,6 +19,8 @@
 </p>
 
 ---
+<!-- DEPRECATED WARNING -->
+> :warning: **Deprecated**: This plugin is no longer being maintained or supported. Sorry for any inconvenience.
 
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
